@@ -1,0 +1,12 @@
+.logo {
+	padding-top: 50px;
+    transition: transform 0.3s;
+	img{
+		height: 100px;
+		cursor: pointer;
+	}
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}

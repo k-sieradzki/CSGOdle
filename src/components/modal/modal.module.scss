@@ -1,0 +1,166 @@
+.modal{
+    position: relative;
+    color: #fff;
+    border: 2px solid sandybrown;
+    width: 220px;
+}
+
+.icon {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    line-height: 60px;
+    font-size: 2em;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.iconInfo{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #1e2328;
+    border: 2px solid sandybrown;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 16px;
+    height: 50px;
+    width: 70px;
+
+}	
+.icon:hover {
+    color: sandybrown;
+    .iconInfo{
+        display: flex;
+    }
+}
+
+.closeTest{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+//settings
+
+    .sectionTitle{
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+    margin: 10px 0 15px 0;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+}
+.centerSet{
+    text-align: center;
+    padding: 30px 0;
+    .switch{
+        margin-top: 20px;
+    }
+    
+}
+.centerSet > p{
+        //font-size: 20px;
+}
+
+//settings
+
+//Patchnotes
+.patchBox{
+    width: 60%;
+    padding: 20px;
+    background-color: #2c333b;
+    margin: 15px auto;
+    .date{
+        margin-bottom: 5px;
+        color: royalblue;
+    }
+    .patchInfo{
+        font-size: 1.1em;
+    }
+    span{
+        color: sandybrown;
+    }
+    
+}
+//Patchnotes
+
+
+//Howtoplay
+
+.propBox{
+    margin: 10px 0;
+    h3{
+        color: #06a7ac;
+        padding-bottom: 5px;
+    }
+    p{
+        span{
+            color: #abffce;
+        }
+    }
+}
+
+.counter{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.grayParagraph{
+    color: #828282;
+}
+.gameInfo{
+    line-height: 30px;
+}
+
+.howToPlayImg{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+
+.example{
+    font-size: 1.1em;
+}
+
+.exampleBox{
+    margin: 15px 0;
+    p{
+        padding: 5px 0;
+    }
+}
+
+
+
+@media (min-width: 375px) {
+    .modal{
+        width: 270px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .modal{
+        width: 480px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .modal{
+        width: 670px;
+    }
+  }

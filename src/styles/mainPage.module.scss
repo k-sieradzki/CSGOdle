@@ -1,0 +1,52 @@
+a:-webkit-any-link {
+	text-decoration: none;
+}
+.links {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	padding: 0 15px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.link {
+	height: 50px;
+	width: 100%;
+	border: 5px solid sandybrown;
+	border-radius: 15px;
+	margin: 20px 0;
+    font-size: 25px;
+	background-color: #1e2328;
+
+	P {
+		color: #fff;
+		line-height: 50px;
+        span{
+            color: red;
+        }
+	}
+}
+.zoomed {
+	transition: transform 0.3s;
+}
+.zoomed:hover {
+	transform: scale(1.1);
+	backface-visibility: hidden;
+}
+
+.linkBlurry {
+	transform: translateZ(0);
+	will-change: transform;
+}
+
+
+
+
+.soon {
+	border: 5px solid gray;
+    font-size: 16px;
+
+	
+}

@@ -1,0 +1,41 @@
+.indicators {
+	padding: 20px 0;
+	.info {
+		background-color: #1e2328;
+		width: 80%;
+		margin: 0 auto;
+		border: 2px solid sandybrown;
+		border-radius: 5px;
+		padding: 0 15px;
+
+		.colorsBox {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			.box {
+				.correct,
+				.incorrect {
+					width: 20px;
+					height: 20px;
+					border-radius: 5px;
+					margin: 0 auto;
+				}
+				.green {
+					background-color: green;
+				}
+				.red {
+					background-color: red;
+				}
+			}
+		}
+		h3 {
+			padding: 20px 0;
+		}
+		p {
+			color: #6e6e6e;
+			padding-bottom: 10px;
+			font-size: 1.2em;
+		}
+	}
+}
+

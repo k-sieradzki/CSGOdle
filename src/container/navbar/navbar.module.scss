@@ -1,0 +1,49 @@
+.logo {
+	padding-top: 50px;
+	img{
+		height: 100px;
+		cursor: pointer;
+	}
+}
+
+.iconsBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	.icon {
+		position: relative;
+		height: 50px;
+		width: 50px;
+		line-height: 60px;
+		font-size: 2em;
+		margin: 0 5px;
+		cursor: pointer;
+	}
+	.iconInfo{
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		display: none;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		background-color: #1e2328;
+		border: 2px solid sandybrown;
+		border-radius: 5px;
+		font-size: 16px;
+		line-height: 16px;
+		height: 50px;
+		width: 70px;
+
+	}	
+	.icon:hover {
+		color: sandybrown;
+		.iconInfo{
+			display: flex;
+		}
+	}
+
+	
+}

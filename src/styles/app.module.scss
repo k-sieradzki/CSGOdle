@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: none;
+	scrollbar-color: #6e6e6e #1e2328;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #1e2328;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #6e6e6e;
+	border-radius: 0px;
+	border: 3px none #1e2328;
+}
+
+
+.appContainer{
+    background: linear-gradient(rgba(3, 10, 29, 0.75), rgba(22, 28, 45, 0.75)),
+    url(../../public/assets/background.png);
+background-size: cover;
+background-position: center;
+height: 100vh;
+color: #fff;
+overflow: scroll;
+overflow-x: hidden;
+text-align: center;
+padding: 0 10px;
+}
